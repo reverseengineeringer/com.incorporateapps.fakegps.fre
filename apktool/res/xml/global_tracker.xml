@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ga_sessionTimeout">500</integer>
+    <bool name="ga_autoActivityTracking">false</bool>
+    <screenName name="com.google.android.gms.analytics.samples.mobileplayground.ScreenviewFragment"> AnalyticsSampleApp ScreenViewSampleScreen
+</screenName>
+    <screenName name="com.google.android.gms.analytics.samples.mobileplayground.EcommerceFragment"> AnalyticsSampleApp EcommerceSampleScreen
+</screenName>
+    <string name="ga_trackingId">UA-20035701-4</string>
+</resources>

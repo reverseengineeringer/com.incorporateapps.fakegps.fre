@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="MainPreferenceScreen"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/pref_go_pro_title" android:key="@string/pref_go_pro_key" android:summary="@string/pref_go_pro_summary" />
+    <CheckBoxPreference android:enabled="false" android:title="@string/pref_start_boot" android:key="@string/pref_start_boot_key" android:summary="@string/pref_start_boot_summary" android:defaultValue="@string/pref_start_boot_default" />
+    <CheckBoxPreference android:enabled="false" android:title="@string/pref_expert_mode_title" android:key="@string/pref_expert_mode_key" android:summary="@string/pref_expert_mode_summary" android:defaultValue="@string/pref_expert_mode_default" />
+    <CheckBoxPreference android:enabled="false" android:title="@string/pref_app_resume_title" android:key="@string/pref_app_resume_key" android:summary="@string/pref_app_resume_summary" android:defaultValue="@string/pref_app_resume_default" />
+    <CheckBoxPreference android:enabled="false" android:title="@string/pref_hide_icon_title" android:key="@string/pref_hide_icon_key" android:summary="@string/pref_hide_icon_summary" android:defaultValue="@string/pref_hide_icon_default" />
+    <EditTextPreference android:enabled="false" android:numeric="integer" android:title="@string/pref_update_interval_title" android:key="@string/pref_update_interval_key" android:summary="@string/pref_update_interval_summary" android:defaultValue="@string/pref_update_interval_default" />
+    <EditTextPreference android:enabled="false" android:numeric="integer" android:title="@string/pref_altitude_gps_title" android:key="@string/pref_altitude_gps_key" android:summary="@string/pref_altitude_gps_summary" android:defaultValue="@string/pref_altitude_gps_default" />
+    <EditTextPreference android:enabled="false" android:maxLength="3" android:numeric="integer" android:title="@string/pref_accuracy_gps_title" android:key="@string/pref_accuracy_gps_key" android:summary="@string/pref_accuracy_gps_summary" android:defaultValue="@string/pref_accuracy_gps_default" />
+    <EditTextPreference android:enabled="false" android:maxLength="5" android:title="@string/pref_speed_gps_title" android:key="@string/pref_speed_gps_key" android:summary="@string/pref_speed_gps_summary" android:defaultValue="@string/pref_speed_gps_default" android:inputType="numberDecimal|numberSigned" />
+    <PreferenceCategory android:title="@string/pref_category_gpsmove">
+        <CheckBoxPreference android:enabled="false" android:title="@string/pref_enable_move_fake_gps_title" android:key="@string/pref_enable_move_fake_gps_key" android:summary="@string/pref_enable_move_fake_gps_summary" android:defaultValue="@string/pref_enable_move_fake_gps_default" />
+        <EditTextPreference android:enabled="false" android:maxLength="5" android:numeric="decimal" android:title="@string/pref_timeframe_move_fake_gps_title" android:key="@string/pref_timeframe_move_fake_gps_key" android:summary="@string/pref_timeframe_move_fake_gps_summary" android:defaultValue="@string/pref_timeframe_move_fake_gps_default" />
+        <EditTextPreference android:enabled="false" android:maxLength="6" android:numeric="integer" android:title="@string/pref_distance_move_fake_gps_title" android:key="@string/pref_distance_move_fake_gps_key" android:summary="@string/pref_distance_move_fake_gps_summary" android:defaultValue="@string/pref_distance_move_fake_gps_default" />
+    </PreferenceCategory>
+</PreferenceScreen>

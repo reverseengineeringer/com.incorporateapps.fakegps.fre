@@ -1,0 +1,12 @@
+package com.google.android.gms.internal;
+
+public abstract interface zzji$zzc
+{
+  public abstract void zze(Object paramObject);
+}
+
+/* Location:
+ * Qualified Name:     com.google.android.gms.internal.zzji.zzc
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

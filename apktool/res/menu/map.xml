@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:myapp="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_search" android:id="@id/action_search" android:title="@string/action_search" myapp:showAsAction="always" myapp:actionViewClass="com.incorporateapps.fakegps.fre.StatefulSearchView" />
+    <item android:icon="@drawable/ic_action_map" android:id="@id/action_map" android:title="@string/action_map" myapp:showAsAction="always" />
+    <item android:icon="@drawable/ic_action_location_found" android:id="@id/action_current_location" android:title="@string/action_location" myapp:showAsAction="always" />
+</menu>

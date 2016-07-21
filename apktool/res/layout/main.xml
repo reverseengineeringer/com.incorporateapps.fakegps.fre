@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <view android:enabled="true" android:id="@id/myMapView" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:apiKey="0OPg9rm3MnX5srJlk7R1T5vrS3XAiANtR0xlbIQ" class="com.google.android.maps.MapView" />
+    <ImageView android:id="@id/drag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/startFake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_marginBottom="45.0dip" android:src="@drawable/start_button" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/stopFake" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginBottom="45.0dip" android:src="@drawable/stop_button" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="11.0sp" android:textStyle="bold|italic" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/double_tap_on_map_hint" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="cast_notification_id" />
+    <item type="id" name="action_bar_activity_content" />
+    <item type="id" name="action_menu_divider" />
+    <item type="id" name="action_menu_presenter" />
+    <item type="id" name="home" />
+    <item type="id" name="progress_circular" />
+    <item type="id" name="progress_horizontal" />
+    <item type="id" name="action_bar_root">false</item>
+    <item type="id" name="action_bar_container">false</item>
+    <item type="id" name="action_bar">false</item>
+    <item type="id" name="action_context_bar">false</item>
+    <item type="id" name="split_action_bar">false</item>
+    <item type="id" name="action_bar_overlay_layout">false</item>
+    <item type="id" name="top_action_bar">false</item>
+    <item type="id" name="up">false</item>
+    <item type="id" name="action_bar_title">false</item>
+    <item type="id" name="action_bar_subtitle">false</item>
+    <item type="id" name="action_mode_close_button">false</item>
+    <item type="id" name="activity_chooser_view_content">false</item>
+    <item type="id" name="expand_activities_button">false</item>
+    <item type="id" name="image">false</item>
+    <item type="id" name="default_activity_button">false</item>
+    <item type="id" name="Image">false</item>
+    <item type="id" name="list_item">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="expanded_menu">false</item>
+    <item type="id" name="checkbox">false</item>
+    <item type="id" name="shortcut">false</item>
+    <item type="id" name="radio">false</item>
+    <item type="id" name="edit_query">false</item>
+    <item type="id" name="search_bar">false</item>
+    <item type="id" name="search_badge">false</item>
+    <item type="id" name="search_button">false</item>
+    <item type="id" name="search_edit_frame">false</item>
+    <item type="id" name="search_mag_icon">false</item>
+    <item type="id" name="search_plate">false</item>
+    <item type="id" name="search_src_text">false</item>
+    <item type="id" name="search_close_btn">false</item>
+    <item type="id" name="submit_area">false</item>
+    <item type="id" name="search_go_btn">false</item>
+    <item type="id" name="search_voice_btn">false</item>
+    <item type="id" name="banner_adview">false</item>
+    <item type="id" name="balloon_main_layout">false</item>
+    <item type="id" name="balloon_inner_layout">false</item>
+    <item type="id" name="balloon_item_title">false</item>
+    <item type="id" name="balloon_item_snippet">false</item>
+    <item type="id" name="close_img_button">false</item>
+    <item type="id" name="street_view_icon">false</item>
+    <item type="id" name="ADRelLayout">false</item>
+    <item type="id" name="editLon">false</item>
+    <item type="id" name="textView2">false</item>
+    <item type="id" name="editLat">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="stopButton">false</item>
+    <item type="id" name="startButton">false</item>
+    <item type="id" name="layout">false</item>
+    <item type="id" name="appIcon">false</item>
+    <item type="id" name="imageNotification">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="scrollDialogText">false</item>
+    <item type="id" name="addrs">false</item>
+    <item type="id" name="latlon">false</item>
+    <item type="id" name="locations_list">false</item>
+    <item type="id" name="myMapView">false</item>
+    <item type="id" name="drag">false</item>
+    <item type="id" name="startFake">false</item>
+    <item type="id" name="stopFake">false</item>
+    <item type="id" name="place_autocomplete_search_button">false</item>
+    <item type="id" name="place_autocomplete_search_input">false</item>
+    <item type="id" name="place_autocomplete_clear_button">false</item>
+    <item type="id" name="place_autocomplete_separator">false</item>
+    <item type="id" name="place_autocomplete_powered_by_google">false</item>
+    <item type="id" name="place_autocomplete_progress">false</item>
+    <item type="id" name="place_autocomplete_prediction_primary_text">false</item>
+    <item type="id" name="place_autocomplete_prediction_secondary_text">false</item>
+    <item type="id" name="webView1">false</item>
+    <item type="id" name="action_search">false</item>
+    <item type="id" name="action_map">false</item>
+    <item type="id" name="action_current_location">false</item>
+</resources>
